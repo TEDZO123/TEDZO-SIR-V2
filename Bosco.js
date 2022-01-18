@@ -2152,7 +2152,6 @@ a += `
 ⏱️ Duration : ${i.timestamp}
 🎥 Channel : ${i.author.name}
 🖇️ Link : ${i.url}\n`
-🤖 by.  : ©Aslusir
 }
                b = a.trim()
                sendFileFromUrl(res.all[0].image, image, {quoted: mek, thumbnail: Buffer.alloc(0), caption: b})
