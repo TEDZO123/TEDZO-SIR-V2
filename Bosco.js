@@ -2462,14 +2462,6 @@ teks = `
               prep = await bosco.prepareMessageFromContent(from,{buttonsMessage},{})
               bosco.relayWAMessage(prep)
               break
-case 'buttons9':
-              const randomtruth = truth[Math.floor(Math.random() * truth.length)]
-              result = `${randomtruth}`
-              buttons = [{buttonId: `${prefix}alive`,buttonText:{displayText: '.ALIVE'},type:1},{buttonId:`${prefix}.sc`,buttonText:{displayText:'.SC'},type:1},{buttonId:`${prefix}.tedzo`,buttonText:{displayText:'.MENU'},type:1}]
-              buttonsMessage = { contentText: `${result}`, footerText: '.menu', buttons: buttons, headerType: 1 }
-              prep = await bosco.prepareMessageFromContent(from,{buttonsMessage},{})
-              bosco.relayWAMessage(prep)
-              break
        
          case 'antilink':
               if (!isGroup) return reply(mess.group)
@@ -2547,13 +2539,6 @@ case 'buttons9':
               result =`*Truth Or Dare*\nPlayers are given the choice between answering questions honestly, or taking on the challenge given`
               buttons = [{buttonId: `${prefix}buttons6`,buttonText:{displayText: 'Truth'},type:1},{buttonId:`${prefix}buttons5`,buttonText:{displayText:'Dare'},type:1},{buttonId:`${prefix}tod`,buttonText:{displayText:'Tod'},type:1}]
               buttonsMessage = { contentText: `${result}`, footerText: 'Truth or challenge?', buttons: buttons, headerType: 1 }
-              prep = await bosco.prepareMessageFromContent(from,{buttonsMessage},{})
-              bosco.relayWAMessage(prep)
-              break
-       case 'ted':
-              result =`*TEDZO SIR*\nTEDZO SIR WATSAPP BOT`
-              buttons = [{buttonId: `${prefix}buttons9`,buttonText:{displayText: 'CMD'},type:1},{buttonId:`${prefix}.sc`,buttonText:{displayText:'SC'},type:1},{buttonId:`${prefix}gp`,buttonText:{displayText:'WHATSAPP'},type:1}]
-              buttonsMessage = { contentText: `${result}`, footerText: '🤖🤖🤖', buttons: buttons, headerType: 1 }
               prep = await bosco.prepareMessageFromContent(from,{buttonsMessage},{})
               bosco.relayWAMessage(prep)
               break
