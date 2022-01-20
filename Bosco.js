@@ -1006,33 +1006,33 @@ const ftrol = {
 ▢ 𝙏 𝙀 𝘿 𝙕 𝙊 - 𝙈 𝙀 𝙉 𝙐 ▢ 
 
 
-▢ ${prefix}SETBGMPIC
+▢ ${Prefix}setbgmpic
 
-▢ ${prefix}SETTHUMB
+▢ ${prefix}setthumb
 
-▢ ${prefix}CLEARALL
+▢ ${Prefix}clearall
 
-▢ ${prefix}TOBC
+▢ ${prefix}tobc
 
-▢ ${prefix}BC
+▢ ${prefix}bc
 
-▢ ${prefix}GETQUOTED
+▢ ${prefix}getquoted
 
-▢ ${Prefix}RESTART
+▢ ${prefix}restart
 
-▢ ${prefix}TERM
+▢ ${prefix}term
 
-▢ ${prefix}BLOCK
+▢ ${prefix}block
 
-▢ ${prefix}UNBLOCK
+▢ ${prefix}unblock
 
-▢ ${prefix}LEAVEALL
+▢ ${prefix}leaveall
 
-▢ ${prefix}ADDCMD
+▢ ${prefix}addcmd
 
-▢ ${prefix}DELCMD
+▢ ${prefix}delcmd
 
-▢ ${prefix}JADIBOT
+▢ ${prefix}jadibot
 
 ▢ ${prefix}LISTJADIBOT
 
