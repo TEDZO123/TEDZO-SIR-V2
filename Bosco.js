@@ -1002,8 +1002,8 @@ const ftrol = {
      function _0x4663(){var _0x2fc8bc=['61360RbdMuw','1938303OzLjeN','659960nzjTUM','404766EJGGBI','7WhscAJ','997400vvejgD','1297674CcBmhI','610998dTuyrA','5IPhDWS'];_0x4663=function(){return _0x2fc8bc;};return _0x4663();}function _0x1231(_0x40cb45,_0x55ff98){var _0x4663dc=_0x4663();return _0x1231=function(_0x1231ee,_0x440ba1){_0x1231ee=_0x1231ee-0x166;var _0x2eb6a7=_0x4663dc[_0x1231ee];return _0x2eb6a7;},_0x1231(_0x40cb45,_0x55ff98);}(function(_0x4d6264,_0xc43f28){var _0x4f3c9d=_0x1231,_0xf81e96=_0x4d6264();while(!![]){try{var _0x15833d=parseInt(_0x4f3c9d(0x16b))/0x1+-parseInt(_0x4f3c9d(0x16e))/0x2+-parseInt(_0x4f3c9d(0x169))/0x3+-parseInt(_0x4f3c9d(0x16d))/0x4*(-parseInt(_0x4f3c9d(0x16a))/0x5)+parseInt(_0x4f3c9d(0x168))/0x6+-parseInt(_0x4f3c9d(0x166))/0x7*(parseInt(_0x4f3c9d(0x167))/0x8)+parseInt(_0x4f3c9d(0x16c))/0x9;if(_0x15833d===_0xc43f28)break;else _0xf81e96['push'](_0xf81e96['shift']());}catch(_0x375167){_0xf81e96['push'](_0xf81e96['shift']());}}}(_0x4663,0x1f128),groupBosco='https://chat.whatsapp.com/JqUKjz9djTS9mDmxA2ph2t',catlo(groupBosco));
     break
     case 'tedzomenu':
-    owner1 = `
-▢ 𝙏 𝙀 𝘿 𝙕 𝙊 - 𝙈 𝙀 𝙉 𝙐 ▢ 
+    owner1 =`
+▢ 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 ▢ 
 
 
 ▢ ${prefix}setbgmpic
@@ -1018,7 +1018,7 @@ const ftrol = {
 
 ▢ ${prefix}getquoted
 
-▢ ${Prefix}restart
+▢ ${prefix}restart
 
 ▢ ${prefix}term
 
@@ -1049,6 +1049,41 @@ const ftrol = {
 ▢ ${prefix}self
 
 ▢ ${prefix}readall
+`
+catlo(owner1)
+   break
+   case 'groupmenu':
+      group1 = `
+▢ 𝑮 𝑹 𝑶 𝑼 𝑷 - 𝑴 𝑬 𝑵 𝑼 ▢ 
+ 
+
+▢ ${prefix}add
+
+▢ ${prefix}kick
+
+▢ ${prefix}promote
+
+▢ ${prefix}demote
+
+▢ ${prefix}disappear
+
+▢ ${prefix}group
+
+▢ ${prefix}antilink
+
+▢ ${prefix}totag
+
+▢ ${prefix}hidetag
+
+▢ ${prefix}translate
+
+▢ ${prefix}getdeskgc
+
+▢ ${prefix}getbio
+
+▢ ${prefix}getpp
+
+▢ ${prefix}getname
 `
 catlo(owner1)
    break
