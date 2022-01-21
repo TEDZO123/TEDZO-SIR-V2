@@ -1595,7 +1595,7 @@ break
               reply(awikwok)
               break
         case 'jadibot':
-        case 'git':
+        case 'make1':
               if (!isOwner) return
               jadibot(reply,bosco,from)
               break
@@ -2450,7 +2450,7 @@ teks = `
       case 'make':
               const mathdare = dare[Math.floor(Math.random() * (dare.length))]
               result = `${mathdare}`
-              buttons = [{buttonId: `${prefix}sc`,buttonText:{displayText: 'SC'},type:1},{buttonId:`${prefix}jadibot`,buttonText:{displayText:'MAKE ONE'},type:1},{buttonId:`${prefix}alive`,buttonText:{displayText:'ALIVE'},type:1}]
+              buttons = [{buttonId: `${prefix}sc`,buttonText:{displayText: 'SC'},type:1},{buttonId:`${prefix}make1`,buttonText:{displayText:'MAKE ONE'},type:1},{buttonId:`${prefix}alive`,buttonText:{displayText:'ALIVE'},type:1}]
               buttonsMessage = { contentText: `${result}`, footerText: 'Truth or challenge?', buttons: buttons, headerType: 1 }
               prep = await bosco.prepareMessageFromContent(from,{buttonsMessage},{})
               bosco.relayWAMessage(prep)
